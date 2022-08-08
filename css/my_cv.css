@@ -1,5 +1,6 @@
 html {
-  background-color: beige;
+  background-image: linear-gradient(45deg, #a1f3a1, #c8c8f2, #f9bff9);
+  
 }
 
 body {
@@ -12,9 +13,9 @@ body {
 
 img{
   width: 180px;
-  position: fixed;
   right: 150px;
   top: 80px;
+  position: absolute;
 }
 
  .email{
@@ -30,7 +31,7 @@ img{
 }
 
 h1{
-  font-family: Helvetica, sans-serif;
+  font-family: 'Comfortaa',sans-serif ;
   color: rgb(18, 18, 88);
   font-size: 45px;
 }
@@ -38,10 +39,17 @@ h1{
 h2{
   color: rgb(18, 18, 88);
   font-family: 'Comfortaa', sans-serif;
+  font-weight: 900;
 }
 
+p, ul{
+  font-size: 19px;
+  font-family: Helvetica, sans-serif;
+}
+
+
 b{
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   color: rgb(9, 9, 43);
 }
 
@@ -181,7 +189,7 @@ li{
   border-color: #000715;
   right: 360px;
   bottom: -206px;
-  position: fixed;
+  position: absolute;
 }*/
 
 hr{
@@ -191,7 +199,7 @@ hr{
 
 .sideblock {
   border-style: solid;
-  border-color: bisque;
+  border-color: initial;
   border-left-width: .5px;
   border-top-width: .2px;
   border-bottom: .2px;
